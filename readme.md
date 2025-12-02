@@ -5,8 +5,8 @@
 ---
 ## Download
 #### 1️⃣ Click the links below to download the converter tool software.
-- ⬇️[Download Video Converter](https://github.com/ZONESTAR3D/eEGG-Tools/releases/tag/VideoConverter-V0.7)
-- ⬇️[Download Image Converter](https://github.com/ZONESTAR3D/eEGG-Tools/releases/tag/ImageConverter-V0.3)
+- ⬇️[Download Video Converter](https://github.com/ZONESTAR3D/eEGG-Tools/releases/download/VideoConverter-V0.7/VideoConverter_V0.7.zip)
+- ⬇️[Download Image Converter](https://github.com/ZONESTAR3D/eEGG-Tools/releases/download/ImageConverter-V0.3/ImageConvert_V0.3.zip)
 
 #### 2️⃣ Unzip the downloaded ZIP to any disk (e.g. D:\). **Avoid Chinese characters in the path.**
 
