@@ -6,8 +6,8 @@
 ---
 ## 下载工具
 ### 1️⃣ 点击下面的链接下载视频和图片转换工具。
-- ⬇️[下载视频转换工具](https://github.com/ZONESTAR3D/eEGG-Tools/releases/tag/VideoConverter-V0.7)
-- ⬇️[下载图片转换工具](https://github.com/ZONESTAR3D/eEGG-Tools/releases/tag/ImageConverter-V0.3)
+- ⬇️[下载视频转换工具](https://github.com/ZONESTAR3D/eEGG-Tools/archive/refs/tags/VideoConverter-V0.7.zip)
+- ⬇️[下载图片转换工具](https://github.com/ZONESTAR3D/eEGG-Tools/archive/refs/tags/ImageConverter-V0.3.zip)
 
 ### 2️⃣ 将下载的 ZIP 文件解压缩到您电脑的磁盘中，建议放置到 D 盘或其他磁盘，不要使用中文目录。
 
