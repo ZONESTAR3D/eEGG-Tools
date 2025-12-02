@@ -1,11 +1,11 @@
-&lt;!-- 中英切换按钮 --&gt;
-&lt;div align="right"&gt;
-  &lt;button id="btn-zh" onclick="switchLang('zh')"&gt;中文&lt;/button&gt;
-  &lt;button id="btn-en" onclick="switchLang('en')"&gt;English&lt;/button&gt;
-&lt;/div&gt;
+<!-- 中英切换按钮 -->
+<div align="right">
+  <button id="btn-zh" onclick="switchLang('zh')">中文</button>
+  <button id="btn-en" onclick="switchLang('en')">English</button>
+</div>
 
-&lt;!-- 中文区域 --&gt;
-&lt;div id="lang-zh" class="lang-section"&gt;
+<!-- 中文区域 -->
+<div id="lang-zh" class="lang-section">
 
 # 电子球视频和图片转换工具及使用方法
 
@@ -40,16 +40,16 @@
 2️⃣ 设置显示参数  
 - eEGG5 请选择输出尺寸 **240×240**  
 - eEGG6 / eEGG7 请选择输出尺寸 **360×360**  
-&gt; 勾选「裁剪为圆形」可减小文件体积，设备显示效果相同。
+> 勾选「裁剪为圆形」可减小文件体积，设备显示效果相同。
 
 3️⃣ 点击「导入」按钮选择源文件。  
 4️⃣ 点击「导出」按钮并输入文件名。  
 转换完成后即可将文件上传至设备播放。
 
-&lt;/div&gt;
+</div>
 
-&lt;!-- English section --&gt;
-&lt;div id="lang-en" class="lang-section" style="display:none;"&gt;
+<!-- English section -->
+<div id="lang-en" class="lang-section" style="display:none;">
 
 # eEGG Video & Image Converter Tools – Quick Guide
 
@@ -84,16 +84,16 @@ When finished, upload the files to your device.
 2️⃣ Set display parameters  
 - eEGG5 ➜ select **240×240**  
 - eEGG6 / eEGG7 ➜ select **360×360**  
-&gt; Tick「Crop to circle」to reduce file size; visual result on device is identical.
+> Tick「Crop to circle」to reduce file size; visual result on device is identical.
 
 3️⃣ Click「Import」to load source images.  
 4️⃣ Click「Export」and enter a file name.  
 When finished, upload the files to your device.
 
-&lt;/div&gt;
+</div>
 
-&lt;!-- 极简切换脚本 --&gt;
-&lt;script&gt;
+<!-- 极简切换脚本 -->
+<script>
   function switchLang(l) {
     document.getElementById('lang-zh').style.display = l === 'zh' ? 'block' : 'none';
     document.getElementById('lang-en').style.display = l === 'en' ? 'block' : 'none';
@@ -102,4 +102,4 @@ When finished, upload the files to your device.
   }
   // 默认显示中文
   switchLang('zh');
-&lt;/script&gt;
+</script>
