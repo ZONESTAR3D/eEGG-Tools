@@ -1,40 +1,105 @@
+&lt;!-- 中英切换按钮 --&gt;
+&lt;div align="right"&gt;
+  &lt;button id="btn-zh" onclick="switchLang('zh')"&gt;中文&lt;/button&gt;
+  &lt;button id="btn-en" onclick="switchLang('en')"&gt;English&lt;/button&gt;
+&lt;/div&gt;
 
-## 电子球视频和图片转换工具及使用方法
+&lt;!-- 中文区域 --&gt;
+&lt;div id="lang-zh" class="lang-section"&gt;
+
+# 电子球视频和图片转换工具及使用方法
 
 ---
 ## 下载工具
-#### 1️⃣点击下面的链接下载视频和图片转换工具。
-- [**点击这里下载视频转换工具**]()
-- [**点击这里下载图片转换工具**]()
-#### 2️⃣将下载的ZIP文件解压缩到您的电脑的磁盘中，建议放置到D盘或者其他磁盘下，如果有创建目录，不要使用中文目录。
+### 1️⃣ 点击下面的链接下载视频和图片转换工具。
+- ⬇️[下载视频转换工具](https://github.com/ZONESTAR3D/eEGG-Tools/releases/tag/VideoConverter-V0.7)
+- ⬇️[下载图片转换工具](https://github.com/ZONESTAR3D/eEGG-Tools/releases/tag/ImageConverter-V0.3)
+
+### 2️⃣ 将下载的 ZIP 文件解压缩到您电脑的磁盘中，建议放置到 D 盘或其他磁盘，不要使用中文目录。
 
 ---
-## 视频转换工具使用说明：
-### 1️⃣打开视频转换工具应用软件。
-![](videoconvert.png)
-### 2️⃣设置转换参数。
-  - 如果您的设备是eEGG5, 转换时请按以下方式配置。  
-  ![](eEGG5VideoConfig.png)
+## 视频转换工具使用说明
+1️⃣ 打开视频转换工具应用软件。  
+![](./pic/1.png)
 
-  - 如果您的设备是eEGG6或eEGG7, 转换时请按以下方式配置。
-  ![](eEGG6VideoConfig.png)
+2️⃣ 设置转换参数  
+- 若设备为 eEGG5，请按下图配置：  
+  ![](./pic/2.png)  
+- 若设备为 eEGG6 / eEGG7，请按下图配置：  
+  ![](./pic/3.png)
 
-### 3️⃣打开需要转换的文件(可以一次选择多个文件)。
-### 4️⃣点击转换按钮开始转换，转换后的文件将放置在你的源文件所在目录下新建的output目录下。如果转换的文件较多，请耐心等待转换完成。
-之后，您就可以将转换后的文件上传到设备内的video或mjpeg目录中播放了。
-
+3️⃣ 打开需要转换的文件（支持多选）。  
+4️⃣ 点击「转换」按钮，转换后的文件将保存在源文件所在目录下的 `output` 文件夹中。文件较多时请耐心等待。  
+转换完成后即可将文件上传至设备播放。
 
 ---
-## 图片转换工具使用说明：
-### 1️⃣打开图片转换工具应用软件。
+## 图片转换工具使用说明
+1️⃣ 打开图片转换工具应用软件。  
+![](./pic/4.png)
 
-![](imageconvert.png)
+2️⃣ 设置显示参数  
+- eEGG5 请选择输出尺寸 **240×240**  
+- eEGG6 / eEGG7 请选择输出尺寸 **360×360**  
+&gt; 勾选「裁剪为圆形」可减小文件体积，设备显示效果相同。
 
-### 2️⃣设置显示参数。
-  - 如果您的设备是eEGG5, 转换时请按以下方式配置。  
-  - 如果您的设备是eEGG6或eEGG7, 转换时请按以下方式配置。  
+3️⃣ 点击「导入」按钮选择源文件。  
+4️⃣ 点击「导出」按钮并输入文件名。  
+转换完成后即可将文件上传至设备播放。
 
-### 3️⃣打开需要转换的文件。
+&lt;/div&gt;
 
-### 4️⃣点击转换按钮开始转换。
-之后，您就可以将转换后的文件上传到设备内的image目录中播放了。
+&lt;!-- English section --&gt;
+&lt;div id="lang-en" class="lang-section" style="display:none;"&gt;
+
+# eEGG Video & Image Converter Tools – Quick Guide
+
+---
+## Download
+### 1️⃣ Click the links below to download the converters.
+- ⬇️[Video Converter](https://github.com/ZONESTAR3D/eEGG-Tools/releases/tag/VideoConverter-V0.7)
+- ⬇️[Image Converter](https://github.com/ZONESTAR3D/eEGG-Tools/releases/tag/ImageConverter-V0.3)
+
+### 2️⃣ Unzip the downloaded ZIP to any disk (e.g. D:\). **Avoid Chinese characters in the path.**
+
+---
+## Video Converter
+1️⃣ Launch the video converter.  
+![](./pic/1.png)
+
+2️⃣ Choose settings  
+- eEGG5 ➜ use the preset shown below:  
+  ![](./pic/2.png)  
+- eEGG6 / eEGG7 ➜ use the preset shown below:  
+  ![](./pic/3.png)
+
+3️⃣ Add files (multi-select supported).  
+4️⃣ Press 「Convert」. Output files will appear in an `output` folder next to the source.  
+When finished, upload the files to your device.
+
+---
+## Image Converter
+1️⃣ Launch the image converter.  
+![](./pic/4.png)
+
+2️⃣ Set display parameters  
+- eEGG5 ➜ select **240×240**  
+- eEGG6 / eEGG7 ➜ select **360×360**  
+&gt; Tick「Crop to circle」to reduce file size; visual result on device is identical.
+
+3️⃣ Click「Import」to load source images.  
+4️⃣ Click「Export」and enter a file name.  
+When finished, upload the files to your device.
+
+&lt;/div&gt;
+
+&lt;!-- 极简切换脚本 --&gt;
+&lt;script&gt;
+  function switchLang(l) {
+    document.getElementById('lang-zh').style.display = l === 'zh' ? 'block' : 'none';
+    document.getElementById('lang-en').style.display = l === 'en' ? 'block' : 'none';
+    document.getElementById('btn-zh').style.fontWeight = l === 'zh' ? 'bold' : 'normal';
+    document.getElementById('btn-en').style.fontWeight = l === 'en' ? 'bold' : 'normal';
+  }
+  // 默认显示中文
+  switchLang('zh');
+&lt;/script&gt;
